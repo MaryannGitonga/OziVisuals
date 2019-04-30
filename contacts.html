@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <!---basic--->
+  <meta charset="UTF-8">
+  <title>OziVisuals</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!---css--->
+  <link type="text/css" rel="stylesheet" href="css/reset.css">
+  <link type="text/css" rel="stylesheet" href="css/plugins.css">
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <!---favicons--->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+  <!--loader-->
+  <div class="loader-wrap">
+    <div class="spinner">
+      <div class="double-bounce1"></div>
+      <div class="double-bounce2"></div>
+    </div>
+  </div>
+  <!--loader end-->
+  <!--main start-->
+  <div id="main">
+    <!--header start-->
+    <header class="main-header">
+      <!--logo-->
+      <a href="index.html" class="logo-holder"><img src="images/logo.png" alt=""></a>
+      <!--logo end-->
+      <!--mobile nav-->
+      <div class="nav-button-wrap">
+        <div class="nav-button"><span></span><span></span><span></span></div>
+      </div>
+      <!--mobile nav end-->
+      <!--navigation-->
+      <div class="nav-holder main-menu">
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Portfolio </a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="contacts.html" class="active-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!--navigation  end-->
+    </header>
+    <!--header end-->
+    <!--wrapper-->
+    <div id="wrapper">
+      <!--content-->
+      <div class="content">
+        <!--column-image-->
+        <div class="column-image">
+          <div class="bg" data-bg="images/bg/1.jpg"></div>
+          <div class="overlay"></div>
+          <div class="column-title">
+            <h2>Contact Info</h2>
+          </div>
+          <!-- <div class="column-notifer">
+            <div class="scroll-down-wrap transparent_sdw">
+              <div class="mousey">
+                <div class="scroller"></div>
+              </div>
+              <span>Scroll down to Discover</span>
+            </div>
+          </div> -->
+          <div class="fixed-column-dec"></div>
+        </div>
+        <!--column-image end-->
+        <!--column-wrapper-->
+        <div class="column-wrapper ">
+          <!--scroll-nav-wrap-->
+          <div class="scroll-nav-wrap">
+            <nav class="scroll-nav scroll-init">
+              <ul>
+                <li><a class="act-scrlink" href="#sec1">Details</a></li>
+                <li><a href="#sec2">Say Hello</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!--scroll-nav-wrap end-->
+          <!--section-->
+          <section id="sec1">
+            <div class="container small-container">
+              <div class="section-title fl-wrap">
+                <h3>Contact Information</h3>
+                <div class="section-number">01.</div>
+              </div>
+              <div class="column-wrapper_item fl-wrap">
+                <div class="column-wrapper_text fl-wrap">
+                  <p>If you’d like to talk about a project, my work or anything else, get in touch.</p>
+                  <div class="contact-details fl-wrap">
+                    <ul>
+                      <li><span>Mail :</span><a>ozivisuals12@gmail.com</a></li>
+                      <li><span>Address :</span><a>Nairobi,Kenya</a></li>
+                      <li><span>Phone :</span><a>(+254) 741 579 955</a></li>
+                    </ul>
+                  </div>
+                  <a href="#sec2" class="custom-scroll-link btn fl-btn">Say Hello</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--section end-->
+          <div class="sec-dec"></div>
+          <!--section-->
+          <section id="sec2">
+            <div class="container small-container">
+              <div class="section-title fl-wrap">
+                <h3>Get In Touch</h3>
+                <div class="section-number">02.</div>
+              </div>
+              <div class="column-wrapper_item fl-wrap">
+                <div class="column-wrapper_text fl-wrap">
+                  <div id="contact-form" class="fl-wrap">
+                    <div id="message"></div>
+                    <form class="custom-form" action="https://formspree.io/ozivisuals12@gmail.com" method="POST" id="contactform">
+                      <fieldset>
+                        <input type="text" name="name" id="name" placeholder="Your Name *" value="" />
+                        <input type="text" name="email" id="email" placeholder="Email Address *" value="" />
+                        <textarea name="message" id="comments" cols="40" rows="3" placeholder="Your Message:"></textarea>
+                        <button class="btn float-btn flat-btn color-bg" id="submit">Send Message </button>
+                      </fieldset>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--section end-->
+          <!--footer-->
+          <footer class="min-footer fl-wrap content-animvisible">
+            <div class="container small-container">
+              <div class="footer-inner fl-wrap">
+                <!--policy-box-->
+                <div class="policy-box">
+                  <span>&#169; OziVisuals 2019. All rights reserved.</span>
+                </div>
+                <!--policy-box end-->
+                <a href="#" class="to-top-btn to-top">Back to top <i class="fal fa-long-arrow-up"></i></a>
+              </div>
+            </div>
+          </footer>
+          <!--footer end-->
+        </div>
+        <!--column-wrapper-->
+      </div>
+      <!--content end-->
+    </div>
+    <!--wrapper end-->
+    <!--cursor-->
+    <div class="element">
+      <div class="element-item"></div>
+    </div>
+    <!--cursor end-->
+  </div>
+  <!--Main end-->
+  <!---scripts--->
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDwJSRi0zFjDemECmFl9JtRj1FY7TiTRRo"></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/plugins.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <script type="text/javascript" src="js/map.js"></script>
+</body>
+
+</html>
